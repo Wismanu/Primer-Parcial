@@ -92,11 +92,12 @@ public class UserController {
     }
 
 
-    @GetMapping(value = "/user/api")
-    public ResponseEntity apinga() {
+    @GetMapping(value = "apinga/{id}")
+    public ResponseEntity <?> apinga(@PathVariable(name="id") String id) {
         Map<String, Object> response = new HashMap<>();
+
         try {
-            String url = String.format("https://rickandmortyapi.com/api/character/198");
+            String url = String.format("https://rickandmortyapi.com/api/character/"+id);
             HttpClient httpClient = HttpClient.newBuilder().build();
             HttpRequest httpRequest = HttpRequest.newBuilder()
                     .uri(new URI(url))
