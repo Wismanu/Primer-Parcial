@@ -9,23 +9,13 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 //
 import com.google.gson.Gson;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonParser;
-import com.google.gson.stream.JsonReader;
-import java.io.StringReader;
+
 import java.net.URI;
-import java.net.URL;
-import java.net.HttpURLConnection;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
-import java.util.Scanner;
-import javax.swing.JLabel;
-import javax.swing.JOptionPane;
-import javax.swing.JTextField;
 
 
-import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -110,8 +100,8 @@ public class UserController {
             String x = modelo.getName();
 
             User user = new User();
-            user.setLastName(x);
-            user.setEmail( modelo.getSpecies());
+            user.setPersonaje_Fav(x);
+            user.setEspecie( modelo.getSpecies());
             User createdUser = userServiceImp.createUser(user);
 
             response.put("message", "Usuario Actualizado");

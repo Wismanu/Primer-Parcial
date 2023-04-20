@@ -33,7 +33,7 @@ public class UserServiceImp implements UserService {
     public User updateUser(Long id, User user) {
         User userBD = userRepository.findById(id).get();
         userBD.setFirstname(user.getFirstname());
-        userBD.setLastName(user.getLastName());
+        userBD.setPersonaje_Fav(user.getPersonaje_Fav());
         userBD.setAddress(user.getAddress());
         userBD.setBirthday(user.getBirthday());
         return userRepository.save(userBD);

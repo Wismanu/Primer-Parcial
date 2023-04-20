@@ -14,9 +14,9 @@ public class User {
     @Column(name="first_name")
     private String firstname;
     @Column(name="Personaje_Fav")
-    private String lastName;
-
-    private String email;
+    private String Personaje_Fav;
+    @Column(name="Especie")
+    private String Especie;
     private String password;
     private String address;
 
