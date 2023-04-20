@@ -1,12 +1,10 @@
-package com.procesos.concesionario.controllers;
+package com.PrimerParcial.app.controllers;
 
-import com.procesos.concesionario.models.User;
-import com.procesos.concesionario.services.UserServiceImp;
-import org.apache.coyote.Response;
+import com.PrimerParcial.app.models.User;
+import com.PrimerParcial.app.services.UserServiceImp;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.jdbc.support.incrementer.HanaSequenceMaxValueIncrementer;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;

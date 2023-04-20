@@ -1,14 +1,13 @@
-package com.procesos.concesionario.services;
+package com.PrimerParcial.app.services;
 
-import com.procesos.concesionario.models.User;
-import com.procesos.concesionario.repository.UserRepository;
+import com.PrimerParcial.app.models.User;
+import com.PrimerParcial.app.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 
 
 import java.util.List;
-import java.util.Optional;
 
 @Service
 public class UserServiceImp implements UserService {

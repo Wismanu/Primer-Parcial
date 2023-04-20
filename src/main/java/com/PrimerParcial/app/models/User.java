@@ -1,4 +1,4 @@
-package com.procesos.concesionario.models;
+package com.PrimerParcial.app.models;
 
 import lombok.Data;
 
