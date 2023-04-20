@@ -1,7 +1,7 @@
-package com.PrimerParcial.app.services;
+package com.procesos.concesionario.services;
 
-import com.PrimerParcial.app.models.User;
-import com.PrimerParcial.app.repository.UserRepository;
+import com.procesos.concesionario.models.User;
+import com.procesos.concesionario.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

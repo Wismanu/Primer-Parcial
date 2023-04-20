@@ -1,6 +1,7 @@
-package com.PrimerParcial.app.controllers;
-import com.PrimerParcial.app.models.User;
-import com.PrimerParcial.app.services.UserServiceImp;
+package com.procesos.concesionario.controllers;
+
+import com.procesos.concesionario.models.User;
+import com.procesos.concesionario.services.UserServiceImp;
 import org.apache.coyote.Response;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

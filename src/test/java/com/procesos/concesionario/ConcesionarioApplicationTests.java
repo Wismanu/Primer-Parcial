@@ -1,10 +1,10 @@
-package com.PrimerParcial.app;
+package com.procesos.concesionario;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ApiRestApplicationTests {
+class ConcesionarioApplicationTests {
 
 	@Test
 	void contextLoads() {

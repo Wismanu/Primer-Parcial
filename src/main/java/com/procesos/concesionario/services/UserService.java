@@ -1,6 +1,6 @@
-package com.PrimerParcial.app.services;
+package com.procesos.concesionario.services;
 
-import com.PrimerParcial.app.models.User;
+import com.procesos.concesionario.models.User;
 
 import java.util.List;
 
