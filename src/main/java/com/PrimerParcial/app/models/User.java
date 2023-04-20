@@ -1,5 +1,7 @@
 package com.PrimerParcial.app.models;
 
+
+
 import lombok.Data;
 
 import javax.persistence.*;
