@@ -13,8 +13,9 @@ public class User {
     private Long id;
     @Column(name="first_name")
     private String firstname;
-    @Column(name="last_name")
+    @Column(name="Personaje_Fav")
     private String lastName;
+
     private String email;
     private String password;
     private String address;
